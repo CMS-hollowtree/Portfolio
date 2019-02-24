@@ -1,0 +1,185 @@
+$color_1: #5E0042; 
+$color_2: #8DB500;
+$color_3: #2C2233; 
+$color_4: #005869;
+$white: #A8C9DA;
+ 
+
+body {
+
+    font-family: 'Source Code Pro';
+    background-color: #222426;
+	font-size: 20px; 
+	font-weight: 400;
+	font-style: normal;
+
+	.home {
+		//margin-top: 30%;
+		position: relative;
+		height: 100vh;
+		margin: 0;
+	}
+
+	.text-center {
+		text-align: center;
+	}
+	
+
+	.intro {
+		color: $white;
+		text-align: center;	
+		position: relative;
+		top: 40%;
+		font-size: 34px;
+
+		strong {
+			color: $color_2;
+		}
+	}
+
+	.projects {
+		text-align: center;
+		 background-color: #fff;
+		    width: 100%;
+		    height: 100%;
+		    margin: 5px auto;
+		    padding-top: 2px;
+
+		    .h2 {
+				font-size: 30px;
+			}
+
+			.span.glyphicon-link {
+		    font-size: 1.2em;
+		}
+
+		.panel-footer {
+			background-color: $color_3;
+			color: $white;
+		}
+
+		.image {
+		  opacity: 1;
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		  transition: .5s ease;
+		  backface-visibility: hidden;
+		}
+
+		.middle {
+		  transition: .5s ease;
+		  opacity: 0;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		  text-align: center;
+		}
+
+		.container1:hover .image {
+		  opacity: 0.3;
+		}
+
+		.container1:hover .middle {
+		  opacity: 1;
+		}
+
+		.container2:hover .image {
+		  opacity: 0.3;
+		}
+
+		.container2:hover .middle {
+		  opacity: 1;
+		}
+
+
+		.text {
+		  background-color: $color_2;
+		  color: white;
+		  font-size: 1.5em;
+		  padding: 16px 32px;
+		  box-shadow: 2px 2px 3px black;
+		}
+
+	}
+
+	.about {
+		background-color: $color_3;
+		color: $white;
+
+	}
+
+	.ig {
+		text-align: center;
+		//color: $white;
+		background-color: #fff;
+		//margin-left: 4%;
+	}
+
+
+	.btn-outline {
+	    background-color: transparent;
+	    color: inherit;
+	    transition: all .5s;
+	}
+
+	.btn-primary.btn-outline {
+	    color: #fff;
+	}
+
+	.btn-success.btn-outline {
+	    color: #5cb85c;
+	}
+
+	.btn-info.btn-outline {
+	    color: #5bc0de;
+	}
+
+	.btn-warning.btn-outline {
+	    color: #f0ad4e;
+	}
+
+	.btn-danger.btn-outline {
+	    color: #d9534f;
+	}
+
+	.btn-primary.btn-outline:hover,
+	.btn-success.btn-outline:hover,
+	.btn-info.btn-outline:hover,
+	.btn-warning.btn-outline:hover,
+	.btn-danger.btn-outline:hover {
+	    color: #fff;
+	}
+
+}
+
+footer {
+	color: $color_2;
+	text-align: center;
+	margin-top: 2%;
+
+	.email-btn {
+		width: 200px;
+		background-color: $color_2;
+		padding: 10px;
+	}
+
+	a {
+			color: #fff;
+		}
+
+}
+
+@mixin translateY($e) {
+	-webkit-transform: translateY($e);
+	-moz-transform: translateY($e);
+	transform: translateY($e);
+}
+ 
+@mixin transition($e) {
+	-webkit-transition:$e;
+	-moz-transition:$e;
+	transition:$e;
+}
