@@ -36,7 +36,7 @@ class Projects extends Component {
 			              </div>
 			              <div class="panel-footer text-lowercase">
 					        <h3><i class="far fa-clock"></i> 40 hours</h3>
-					        <p class="text-uppercase"><i class="fab fa-angular"></i> Ionic + AngularJS</p><small >2019</small>
+					        <p class="text-uppercase"><i class="fab fa-angular"></i> Ionic + Angular</p><small >2019</small>
 			              </div>
 			              
 			            </div>
@@ -67,7 +67,7 @@ class Projects extends Component {
 							</div>
 			              <div class="panel-footer text-lowercase">
 			                <h3><i class="far fa-clock"></i> 70 hours</h3>
-			                <p class="text-uppercase"><i class="fab fa-angular"></i> Ionic + AngularJS</p>
+			                <p class="text-uppercase"><i class="fab fa-angular"></i> Ionic + Angular</p>
 			                <small >2018</small>
 			              </div>
 			            </div> 
@@ -108,7 +108,7 @@ class Projects extends Component {
 				              	</div>
 				              	<div class="panel-footer text-lowercase">
 					                <h3><i class="far fa-clock"></i> 8 hours</h3>
-					                <p class="text-uppercase"><i class="fab fa-html5"></i> HTML + CSS + JS</p>
+					                <p class="text-uppercase"><i class="fab fa-html5"></i> HTML + JS</p>
 					                <small >2017</small>
 					            </div>
 				            </div> 
@@ -130,7 +130,7 @@ class Projects extends Component {
 				              	</div>
 				              	<div class="panel-footer text-lowercase">
 					                <h3><i class="far fa-clock"></i> 4 hours</h3>
-					                <p class="text-uppercase"><i class="fas fa-dice-d20"></i> Phaser.js</p>
+					                <p class="text-uppercase"><i class="fas fa-dice-d20"></i> Phaser</p>
 					                <small >2018</small>
 					            </div>
 			            	</div>
