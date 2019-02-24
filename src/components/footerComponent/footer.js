@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from './../../logo.svg';
 
 class Footer extends Component {
   render() {
@@ -21,6 +22,11 @@ class Footer extends Component {
                 &nbsp;&nbsp;&bull;&nbsp;&nbsp;
                 <a class="middle-blue-font" href="https://www.minds.com/AnonFPV" title="Minds" target="so"><strong><i class="far fa-lightbulb"></i></strong></a>
               </p>
+            </div>
+            <div class="row">
+              <a target="_blank" href="https://reactjs.org/">
+                <img src={logo} className="App-logo" alt="logo" />
+              </a>
             </div>
           </div>
 

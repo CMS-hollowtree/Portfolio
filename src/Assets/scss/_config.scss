@@ -170,7 +170,30 @@ footer {
 			color: #fff;
 		}
 
+	small {
+		color: $color_3;
+	}
+
+
+	.App-logo {
+	  animation: App-logo-spin infinite 20s linear;
+	  height: 7vmin;
+	  pointer-events: none;
+	}
+
+	@keyframes App-logo-spin {
+	  from {
+	    transform: rotate(0deg);
+	  }
+	  to {
+	    transform: rotate(360deg);
+	  }
+	}
+
 }
+
+
+
 
 @mixin translateY($e) {
 	-webkit-transform: translateY($e);

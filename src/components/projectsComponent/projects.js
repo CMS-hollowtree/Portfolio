@@ -15,7 +15,7 @@ class Projects extends Component {
 			          	<div class="panel panel-default fixed-width center-block">
 			              <div class="panel-header">
 			                <h3>THC Podcasts</h3>
-			                <p>Stream your favorite episodes.</p>
+			                <p class="text-lowercase">Stream your favorite episodes</p>
 			              </div>
 			              <div class="panel-body container1">
 			                <a target="_blank"  href="`https://play.google.com/store/apps/details?id=com.hollowtree.thc" target="delatinise-cli">
@@ -35,7 +35,8 @@ class Projects extends Component {
 							</div>
 			              </div>
 			              <div class="panel-footer text-lowercase">
-					        <h3>~40 hours</h3><p>Ionic + AngularJS</p><small >2019</small>
+					        <h3><i class="far fa-clock"></i> 40 hours</h3>
+					        <p class="text-uppercase"><i class="fab fa-angular"></i> Ionic + AngularJS</p><small >2019</small>
 			              </div>
 			              
 			            </div>
@@ -45,7 +46,7 @@ class Projects extends Component {
 			          	<div class="panel panel-default fixed-width center-block">
 				          	<div class="panel-header">
 				                <h3>Blockchain Balance</h3>
-				                <p>Cold Storage and QR reader.</p>
+				                <p class="text-lowercase">Cold Storage and QR reader</p>
 				            </div>
 			              <div class="panel-body container2">
 			                <a target="_blank"  href="https://play.google.com/store/apps/details?id=com.BlockchainBalance" target="delatinise-cli">
@@ -65,8 +66,8 @@ class Projects extends Component {
 							  </div>
 							</div>
 			              <div class="panel-footer text-lowercase">
-			                <h3>~70 hours</h3>
-			                <p>Ionic + AngularJS</p>
+			                <h3><i class="far fa-clock"></i> 70 hours</h3>
+			                <p class="text-uppercase"><i class="fab fa-angular"></i> Ionic + AngularJS</p>
 			                <small >2018</small>
 			              </div>
 			            </div> 
@@ -79,7 +80,7 @@ class Projects extends Component {
 			          		<div class="panel panel-default fixed-width center-block">
 					          	<div class="panel-header">
 					                <h3>Elpis Control</h3>
-					                <p>Remote for Elpis Pandora Radio.</p>
+					                <p class="text-lowercase">Remote for Elpis Pandora Radio</p>
 					             </div>
 				              	<div class="panel-body">
 					                <a target="_blank"  href="https://github.com/conman1136/Elpis-Pandora-Remote" target="delatinise-cli">
@@ -87,8 +88,8 @@ class Projects extends Component {
 					                </a>
 				              	</div>
 				              	<div class="panel-footer text-lowercase">
-					                <h3>~20 hours</h3>
-					                <p>Python + Django</p>
+					                <h3><i class="far fa-clock"></i> 20 hours</h3>
+					                <p class="text-uppercase"><i class="fab fa-python"></i> Python + Django</p>
 					                <small >2017</small>
 					            </div>
 			            	</div>
@@ -98,7 +99,7 @@ class Projects extends Component {
 			          		<div class="panel panel-default fixed-width center-block">
 					          	<div class="panel-header">
 					                <h3>Satoshi Paper Wallet Generator</h3>
-					                <p>Make Bitcoin paper wallets.</p>
+					                <p class="text-lowercase">Make Bitcoin paper wallets</p>
 					             </div>
 				              	<div class="panel-body">
 					                <a target="_blank"  href="https://conman1136.github.io/SatoshiWalletGenerator" target="delatinise-cli">
@@ -106,8 +107,8 @@ class Projects extends Component {
 					                </a>
 				              	</div>
 				              	<div class="panel-footer text-lowercase">
-					                <h3>~8 hours</h3>
-					                <p>HTML + CSS + JS</p>
+					                <h3><i class="far fa-clock"></i> 8 hours</h3>
+					                <p class="text-uppercase"><i class="fab fa-html5"></i> HTML + CSS + JS</p>
 					                <small >2017</small>
 					            </div>
 				            </div> 
@@ -120,7 +121,7 @@ class Projects extends Component {
 			          		<div class="panel panel-default fixed-width center-block">
 					          	<div class="panel-header">
 					                <h3>Flappy Block</h3>
-					                <p>Phaser.js Flappy Bird Clone.</p>
+					                <p class="text-lowercase">Flappy Bird Clone</p>
 					             </div>
 				              	<div class="panel-body">
 					                <a target="_blank"  href="https://conman1136.github.io/FlapAss/index" target="delatinise-cli">
@@ -128,8 +129,8 @@ class Projects extends Component {
 					                </a>
 				              	</div>
 				              	<div class="panel-footer text-lowercase">
-					                <h3>~4 hours</h3>
-					                <p>Javascript + Phaser</p>
+					                <h3><i class="far fa-clock"></i> 4 hours</h3>
+					                <p class="text-uppercase"><i class="fas fa-dice-d20"></i> Phaser.js</p>
 					                <small >2018</small>
 					            </div>
 			            	</div>
