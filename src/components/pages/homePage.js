@@ -29,7 +29,7 @@ componentDidMount() {
     // You can pass other options here, such as typing speed, back speed, etc.
     const options = {
     	strings: [
-	    	"a Front-end Developer,",
+	    	"a Front-End Developer,",
 	    	"a Freelance Programmer,",
 	    	"a Travel Photographer,",
 	    	"a Blockchain Enthusiest,", 

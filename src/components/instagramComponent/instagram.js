@@ -6,6 +6,7 @@ class Instagram extends Component {
     return (
       <div className="container-fluid ig">
       	<h2><span class="fas fa-camera-retro" aria-hidden="true"></span> TRAVEL PHOTOGRAPHY</h2>
+      	<p>when im not at my desk, this is where youll find me</p>
       	<br />
       	<div className="row">
       		<div className="col-lg-4 igdiv">

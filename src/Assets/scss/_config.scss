@@ -7,6 +7,8 @@ $white: #A8C9DA;
 
 body {
 
+	  scroll-behavior: smooth;
+
     font-family: 'Source Code Pro';
     background-color: #222426;
 	font-size: 20px; 
@@ -113,8 +115,8 @@ body {
 
 	.ig {
 		text-align: center;
-		//color: $white;
-		background-color: #fff;
+		color: $white;
+		background-color: #222426;
 		//margin-left: 4%;
 
 		.igdiv {
@@ -169,14 +171,107 @@ body {
 
 
 footer {
-	color: $color_2;
+	//color: $color_2;
 	text-align: center;
-	margin-top: 2%;
+	margin-top: 10%;
 
-	.email-btn {
-		width: 200px;
-		background-color: $color_2;
-		padding: 10px;
+
+	$color1: $color_1;
+	$color2: #222426;
+	$color3: $color_2;
+
+	*, *:before, *:after {
+    box-sizing: border-box;
+	}
+
+	.email {
+		display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+	}
+
+	.icon {
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		fill: currentColor;
+	}
+
+	.icon-paperplane {
+	    font-size: 1em;
+	    color: $color3;
+	    margin-left: 1px;
+	    margin-top: 5px;
+	}
+
+	.contact-button {
+	    position: relative;
+	    -webkit-perspective: 1000;
+	    -webkit-backface-visibility: hidden;
+	    -webkit-transform:translate3d(0,0,0);
+	    color: $color3;
+	    text-decoration: none;
+	    text-transform: uppercase;
+	    font-family: 'Raleway', sans-serif;
+	    font-weight: 500;
+	    font-size: 1.2em;
+	    border: 2px solid $color3;
+	    border-radius: 4px;
+	    padding: 20px 60px 20px 55px;
+	    transition: 0.3s ease-in-out;
+	    
+	    span {
+	        text-transform: none;
+	        position: absolute;
+	        color: $color1;
+	        top: 16px;
+	        left: 12px;
+	        opacity: 0;
+	        transition: all 0s ease 0s;
+	    }
+	    &:hover {
+	        transition: 0.3s ease-in-out;
+	        border: 2px solid $color3;
+	        border-radius: 50px;
+	        background-color: $color3;
+	        
+	        &>span {
+	            opacity: 1;
+	            transition: all 0.25s ease-in-out 0.1s;
+	        }
+	        
+	        &:before {
+	            transition: 0.3s ease-in-out;
+	            background-color: $color1;
+	        }
+	    }
+	    
+	    
+	    &:before, &:after {
+	        content: "";
+	        position: absolute;
+	        top: -14px;
+	        left: -12px;
+	        width: 132px;
+	        height: 25px;
+	    }
+	    &:before {
+	        border: 2px solid $color1;
+	        background-color: $color2;
+	        transform: skew(-25deg);
+	        transition: 0.3s ease-in-out;
+	    }
+	    
+	    &:after {
+	        content: "Available for work";
+	        font-size: 0.45em;
+	        top: -9px;
+	        left: -14px;
+	        color: #fff;
+	    }
+	    
+	    
 	}
 
 	a {
