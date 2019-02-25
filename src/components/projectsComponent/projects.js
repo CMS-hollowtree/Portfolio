@@ -18,9 +18,9 @@ class Projects extends Component {
 			                <p class="text-lowercase">Stream your favorite episodes</p>
 			              </div>
 			              <div class="panel-body container1">
-			                <a target="_blank"  href="`https://play.google.com/store/apps/details?id=com.hollowtree.thc" target="delatinise-cli">
+			               
 			                  <img className="image" class="img-responsive center-block" src="https://i.ibb.co/yBJsMxs/Nexus-6-P-Screenshot1.png" />
-			                </a>
+			                
 			                <div class="container">
 							  <div class="middle">
 							    <div class="text">
@@ -49,9 +49,9 @@ class Projects extends Component {
 				                <p class="text-lowercase">Cold Storage and QR reader</p>
 				            </div>
 			              <div class="panel-body container2">
-			                <a target="_blank"  href="https://play.google.com/store/apps/details?id=com.BlockchainBalance" target="delatinise-cli">
+			                
 			                  <img class="img-responsive center-block" src="https://i.ibb.co/5xK5G7L/Nexus-6-P-Screenshot3.png" />
-			                </a>
+			                
 			              </div>
 			              <div class="container">
 							  <div class="middle">

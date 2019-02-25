@@ -116,7 +116,18 @@ body {
 		//color: $white;
 		background-color: #fff;
 		//margin-left: 4%;
+
+		.igdiv {
+			display: flex;
+  			justify-content: center;
+  			
+		}
+
 	}
+
+	.instagram-embed {
+
+}
 
 
 	.btn-outline {
@@ -154,6 +165,8 @@ body {
 	}
 
 }
+
+
 
 footer {
 	color: $color_2;
