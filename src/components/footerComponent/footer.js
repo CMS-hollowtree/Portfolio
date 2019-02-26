@@ -13,7 +13,7 @@ class Footer extends Component {
                 <a href="mailto:ConorSullivan028@gmail.com" target="_blank" class="contact-button">
                     Contact <i class="far fa-paper-plane"></i>
                     
-                    <span className="email" class="text-center">EMAIL</span>
+                    <span className="email">conorsullian028@gmail.com</span>
                 </a>
               </div>
               <br />
