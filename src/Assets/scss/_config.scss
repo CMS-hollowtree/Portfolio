@@ -9,6 +9,8 @@ body {
 
 	  scroll-behavior: smooth;
 
+  -webkit-overflow-scrolling: touch;
+
     font-family: 'Source Code Pro';
     background-color: #222426;
 	font-size: 20px; 
@@ -110,6 +112,162 @@ body {
 	.about {
 		background-color: $color_3;
 		color: $white;
+		padding-bottom: 14px;
+		
+		label {
+			padding-left: 5px;
+			float: left;
+
+			font-size: 0.9em;
+		}
+
+		.skills {
+		  text-align: right;
+		  padding-right: 90px;
+		  line-height: 20px;
+		  color: white;
+		  
+
+		}
+
+		.bars {
+			max-width: 100%;
+			color: #fff;
+			text-align: center;
+		}
+
+		.mysql {
+		  width: 60%; 
+		  height: 20px;
+		  background-color: #084c61; 
+		  animation: mysql 2s ease-out;
+		}
+
+		.firebase {
+		  width: 50%; 
+		  height: 20px;
+		  background-color: #525252;
+		  animation: firebase 2s ease-out;
+		}
+		.mongodb {
+		  width: 40%; 
+		  height: 20px;
+		  background-color: #5a68a5;
+		  animation: mongodb 2s ease-out;
+		}
+
+		.node {
+		  width: 85%; 
+		  height: 20px;
+		  background-color: #084c61; 
+		  animation: node 2s ease-out;
+		}
+
+		.python {
+		  width: 80%; 
+		  height: 20px;
+		  background-color: #525252;
+		  animation: python 2s ease-out;
+		}
+		.php {
+		  width: 40%; 
+		  height: 20px;
+		  background-color: #5a68a5;
+		  animation: php 2s ease-out;
+		}
+
+		.ionic {
+		  width: 80%; 
+		  height: 20px;
+		  background-color: #084c61; 
+		  animation: ionic 2s ease-out;
+		}
+
+		.angular {
+		  width: 60%; 
+		  height: 20px;
+		  background-color: #525252;
+		  animation: angular 2s ease-out;
+		}
+		.react {
+		  width: 30%; 
+		  height: 20px;
+		  background-color: #5a68a5;
+		  animation: react 2s ease-out;
+		}
+		
+		@keyframes mysql {
+		  0% {
+		    width: 0%;
+		  }
+		  100% {
+		    width: 60%;
+		  }
+		}
+		@keyframes firebase {
+		  0% {
+		    width: 0%;
+		  }
+		  100% {
+		    width: 50%;
+		  }
+		}
+		@keyframes mongodb {
+		  0% {
+		    width: 0%;
+		  }
+		  100% {
+		    width: 40%;
+		  }
+		}
+		@keyframes node {
+		  0% {
+		    width: 0%;
+		  }
+		  100% {
+		    width: 85%;
+		  }
+		}
+		@keyframes python {
+		  0% {
+		    width: 0%;
+		  }
+		  100% {
+		    width: 80%;
+		  }
+		}
+		@keyframes php {
+		  0% {
+		    width: 0%;
+		  }
+		  100% {
+		    width: 40%;
+		  }
+		}
+		@keyframes ionic {
+		  0% {
+		    width: 0%;
+		  }
+		  100% {
+		    width: 80%;
+		  }
+		}
+		@keyframes angular {
+		  0% {
+		    width: 0%;
+		  }
+		  100% {
+		    width: 60%;
+		  }
+		}
+		@keyframes react {
+		  0% {
+		    width: 0%;
+		  }
+		  100% {
+		    width: 30%;
+		  }
+		}
 
 	}
 
@@ -225,8 +383,9 @@ footer {
 	        text-transform: none;
 	        position: absolute;
 	        color: $color1;
-	        top: 16px;
-	        left: 12px;
+	        top: 22px;
+	        right: 20px;
+	        font-size: 0.7em;
 	        opacity: 0;
 	        transition: all 0s ease 0s;
 	    }

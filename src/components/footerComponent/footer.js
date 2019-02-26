@@ -10,10 +10,10 @@ class Footer extends Component {
             <div class="row">
               <div class="container email-btn">
                 
-                <a href="mailto:Sullivanc28@me.com" target="_blank" class="contact-button">
+                <a href="mailto:ConorSullivan028@gmail.com" target="_blank" class="contact-button">
                     Contact <i class="far fa-paper-plane"></i>
                     
-                    <span className="email">Sullivanc28@me.com</span>
+                    <span className="email" class="text-center">EMAIL</span>
                 </a>
               </div>
               <br />

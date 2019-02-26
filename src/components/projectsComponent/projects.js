@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import flapGif from './../../flappy.gif';
 
 class Projects extends Component {
 
@@ -125,11 +126,11 @@ class Projects extends Component {
 					             </div>
 				              	<div class="panel-body">
 					                <a target="_blank"  href="https://conman1136.github.io/FlapAss/index" target="delatinise-cli">
-					                  <img class="img-responsive center-block" src="https://i.ibb.co/56r7CbB/Screenshot-7.png" />
+					                  <img class="img-responsive center-block" src={flapGif} />
 					                </a>
 				              	</div>
 				              	<div class="panel-footer text-lowercase">
-					                <h3><i class="far fa-clock"></i> 4 hours</h3>
+					                <h3><i class="far fa-clock"></i> 8 hours</h3>
 					                <p class="text-uppercase"><i class="fas fa-dice-d20"></i> Phaser</p>
 					                <small >2018</small>
 					            </div>
