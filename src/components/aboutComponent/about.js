@@ -23,7 +23,7 @@ class About extends Component {
            
             <h3 class="text-center text-uppercase"><i class="fas fa-puzzle-piece"></i> Goals</h3>
             <p className="dark-gray-font text-justify">
-            	I enjoy creating interfaces that give users an enjoyable experiance, while driving more traffic and increasing revenue.<br /><br />If we can eleminate a middle man with the power of web3 and blockchain, even better.
+            	I enjoy creating interfaces that give users an enjoyable experiance, while driving traffic and increasing revenue.<br /><br />If we can eleminate a middle man with the power of web3 and blockchain, even better.
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ class About extends Component {
         <h2 className="text-uppercase dark-gray-font text-center"><span class="far fa-user-circle" aria-hidden="true"></span> Skills</h2>
         <div class="row">
           <div class="col-md-4 text-center"><h3 class="text-uppercase"><i class="fas fa-database"></i> Database</h3>
-            <p>Prefer json with something like MongoDB.</p>            
+            <p>Prefer json with something like Firebase.</p>            
          
             
             <div class="container bars">
@@ -49,7 +49,7 @@ class About extends Component {
         
           </div>
           <div class="col-md-4 text-center"><h3 class="text-uppercase"><i class="fas fa-server"></i> Back End</h3>
-          <p>Learned with python, but node offers so much more.</p>
+          <p>Python is to linux as node is to the web.</p>
             
             <div class="container bars">
               <div class="skills node"><label class="text-left">Node</label>&nbsp;</div>
